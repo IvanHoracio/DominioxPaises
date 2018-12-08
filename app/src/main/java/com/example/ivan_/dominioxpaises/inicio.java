@@ -35,7 +35,7 @@ public class inicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Se usan los arreglos de nombres de países y dominio que están en recursos
+        //Se usan los arreglos de nombres de países y dominio que están en recursos.
         Resources res = getResources();
         nombres = res.getStringArray(R.array.array_paises);
         dominios = res.getStringArray(R.array.array_dominiosPaises);
